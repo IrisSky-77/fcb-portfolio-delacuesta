@@ -1,0 +1,83 @@
+/*
+	ctrl + shift + / - CSS comment
+
+	CSS - cascading stylesheet - it is used to style/design our webpages.
+*/
+* {
+	font-family: "Roboto" , sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1,h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+/*
+	for the ID calling, use # 
+	vh means viewport height 
+
+	display:flex; - center the contents of landing horizontally and vertically
+	align-items: center; align horizontally like picture
+	justify-content: center; align vertically
+*/
+#landing {
+	height:	80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#gallery {	
+	height: 75vh;
+	/*center the contents of gallery horizontally and vertically using display: flex;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/*in rgb color for text or full customization use css*/
+
+/* # use only in ID
+ul means remowing bullet
+if you have specific target, its better to add the class or id.
+If you have to style a specific element use ID
+*/
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+/* to select the class use dot (.)
+use of padding to make space in all sides of border within the element
+padding - space outside of the element
+margin - space inside of the element
+use of relative units vs absolute units*/
+
+.tools {
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	padding: 25px;
+	margin: 20px;
+	width: 75%;
+}
+
+/* if you want to add properties in CSS use curly braces {}
+If you want to add element in HTML angled bracket will be use <>
+square bracket to more complex []
+
+use of {}, [] and <> depends on the language use like Python, HTML, CSS 
+braces and bracket for Syntax
+*/
